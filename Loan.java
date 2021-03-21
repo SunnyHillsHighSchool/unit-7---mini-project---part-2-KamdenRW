@@ -19,6 +19,15 @@ public class Loan
     this.daysToFund = daysToFund; 
     this.numLenders = numLenders; 
   }
+
+    public Loan() 
+  { 
+    this.ID = 0; 
+    this.loanAmount = 0; 
+    this.country = "country"; 
+    this.daysToFund = 0; 
+    this.numLenders = 0; 
+  }
   //accessor methods
   public int getID()
   {

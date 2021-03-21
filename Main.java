@@ -29,7 +29,6 @@ public class Main {
        System.out.println(analysis.longestToFundCountry());
        System.out.println(analysis.variance());
        System.out.println(analysis.standardDeviation());
-       System.out.println(analysis.empiricalRule());
    }
    
    
